@@ -44,4 +44,4 @@
 
 * 👑 **Studio & Conception** : FlowCreativeStudio / Florian ([@NayrolfRdgs](https://github.com/NayrolfRdgs))
 * 📜 **Licence Launcher** : Open-Source sous licence MIT
-* 📬 **Contact & Support** : [flowcreativestudio.dev@gmail.com](mailto:flowcreativestudio.dev@gmail.com)
+* 📬 **Contact & Support** : [contact@flowcrea.fr](mailto:contact@flowcrea.fr)
