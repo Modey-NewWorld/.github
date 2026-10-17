@@ -1,0 +1,39 @@
+name: ✨ Feature request
+description: Proposer une amélioration ou une nouvelle fonctionnalité
+title: "feat(scope): "
+labels: ["enhancement"]
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de décrire votre idée. Les propositions bien argumentées sont prioritaires.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problème à résoudre
+      description: Quel besoin ou frustration cette fonctionnalité adresse-t-elle ?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution proposée
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives envisagées
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexte additionnel
+      description: Mockups, références, liens...
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: J'ai vérifié qu'aucune issue similaire n'existe
+          required: true

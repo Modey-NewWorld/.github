@@ -1,0 +1,77 @@
+name: 🐛 Bug report
+description: Signaler un dysfonctionnement du launcher / de l'écosystème Modey
+title: "fix(scope): "
+labels: ["bug", "needs-info"]
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de remplir ce formulaire avec le plus de détails possible.
+        **Avant de soumettre**, vérifiez qu'aucune issue similaire n'existe déjà.
+  - type: input
+    id: version
+    attributes:
+      label: Version du launcher
+      description: CalVer affiché dans le launcher (ex. 26.1.1)
+      placeholder: "26.x.x"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Système d'exploitation
+      multiple: true
+      options:
+        - Windows 10
+        - Windows 11
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description du problème
+      description: Que se passe-t-il ? Soyez précis.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      description: Liste numérotée des étapes pour reproduire le bug.
+      placeholder: |
+        1. Ouvrir le launcher
+        2. Aller dans ...
+        3. Cliquer sur ...
+        4. Observer ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportement observé
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / capture d'écran
+      description: Collez les logs pertinents ou joignez des captures.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: J'ai vérifié qu'aucune issue similaire n'existe
+          required: true
+        - label: J'accepte que ce rapport soit public
+          required: true

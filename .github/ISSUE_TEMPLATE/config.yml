@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discussions communautaires
+    url: https://github.com/orgs/Modey-NewWorld/discussions
+    about: Questions, idées et entraide — préférez les Discussions aux issues.
+  - name: 🔐 Signaler une vulnérabilité (privé)
+    url: https://github.com/Modey-NewWorld/modey-launcher/security/advisories/new
+    about: Problèmes de sécurité / gros bugs sensibles — signaler de manière privée, visibles uniquement par les admins.
+  - name: 📧 Contact direct
+    url: mailto:contact@flowcrea.fr
+    about: Support et contact officiel.
